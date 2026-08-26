@@ -1,0 +1,41 @@
+# Template Junk
+index.txt
+website-demo-image/
+curriculo/
+
+# Unused Template Images
+assets/images/avatar-1.png
+assets/images/avatar-2.png
+assets/images/avatar-3.png
+assets/images/avatar-4.png
+assets/images/blog-1.jpg
+assets/images/blog-2.jpg
+assets/images/blog-3.jpg
+assets/images/blog-4.jpg
+assets/images/blog-5.jpg
+assets/images/blog-6.jpg
+assets/images/icon-app.svg
+assets/images/icon-design.svg
+assets/images/icon-dev.svg
+assets/images/icon-photo.svg
+assets/images/icon-quote.svg
+assets/images/logo-1-color.png
+assets/images/logo-2-color.png
+assets/images/logo-3-color.png
+assets/images/logo-4-color.png
+assets/images/logo-5-color.png
+assets/images/logo-6-color.png
+assets/images/logo.ico
+assets/images/logo.svg
+assets/images/my-avatar.png
+assets/images/project-2.png
+assets/images/project-4.png
+assets/images/project-5.png
+assets/images/project-6.png
+assets/images/project-7.png
+assets/images/project-8.jpg
+assets/images/project-9.png
+assets/images/project-mobius.png
+
+# Local READMEs Backup
+readmes_backup/
