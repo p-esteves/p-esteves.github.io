@@ -2,6 +2,14 @@
 index.txt
 website-demo-image/
 curriculo/
+curriculo.tex
+curriculo.pdf
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
 
 # Unused Template Images
 assets/images/avatar-1.png

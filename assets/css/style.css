@@ -833,40 +833,66 @@ main {
 
 
 /**
- * skills 
+ * skills (chips)
  */
+
+.skills-section { margin-top: 30px; }
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px; }
-
-
-.skills-item:not(:last-child) { margin-bottom: 15px; }
-
-.skill .title-wrapper {
+.skills-container {
   display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 8px;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.skill .title-wrapper data {
-  color: var(--light-gray);
-  font-size: var(--fs-7);
-  font-weight: var(--fw-300);
+.skills-group {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 16px 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
 }
 
-.skill-progress-bg {
-  background: var(--jet);
-  width: 100%;
-  height: 8px;
-  border-radius: 10px;
-}
-
-.skill-progress-fill {
-  background: var(--text-gradient-yellow);
-  height: 100%;
+.skills-group::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
   border-radius: inherit;
+  z-index: -1;
+}
+
+.skills-group-title {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  margin-bottom: 12px;
+}
+
+.skills-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-chip {
+  background: var(--onyx);
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-400);
+  padding: 5px 13px;
+  border-radius: 8px;
+  border: 1px solid var(--jet);
+  transition: var(--transition-1);
+  display: inline-block;
+}
+
+.skill-chip:hover {
+  background: var(--eerie-black-2);
+  border-color: var(--orange-yellow-crayola);
+  box-shadow: 0 2px 8px hsla(210, 100%, 72%, 0.15);
 }
 
 
